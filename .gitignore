@@ -1,0 +1,15 @@
+# Secrets — live Telegram bot token / API keys. Never commit.
+.env
+.env.bak.*
+*.local
+
+# Runtime logs. These record full Telegram API URLs, which embed the bot token.
+*.log
+logs/
+
+# Runtime state (chat id, update offset) — machine-local, not config.
+state.json
+
+__pycache__/
+*.pyc
+.DS_Store
